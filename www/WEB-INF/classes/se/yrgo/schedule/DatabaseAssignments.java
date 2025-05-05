@@ -10,8 +10,8 @@ public class DatabaseAssignments implements Assignments {
   private static final String SELECT_AT = "SELECT name, day, school_name, address FROM assignments WHERE day = ?";
   private static final String SELECT_FOR_TEACHER_AT = "SELECT name, day, school_name, address FROM assignments WHERE substitute_id = ? AND day = ?";
 
-  public DatabaseAssignments() {
-    this.db = db;
+  public DatabaseAssignments(DBHelper db) {
+    this.db = this.db;
   }
 
   @Override

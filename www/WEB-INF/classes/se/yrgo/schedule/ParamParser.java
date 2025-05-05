@@ -16,6 +16,16 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * </p>
  */
 public class ParamParser {
+  public boolean hasSubstituteId() {
+  }
+
+  public boolean hasDay() {
+  }
+
+  public String substituteId() {
+    return null;
+  }
+
   enum QueryType {
     ALL,
     TEACHER_ID,

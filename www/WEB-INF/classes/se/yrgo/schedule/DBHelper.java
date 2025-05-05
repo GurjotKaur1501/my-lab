@@ -1,5 +1,6 @@
 package se.yrgo.schedule;
 
+import javax.servlet.ServletContext;
 import java.sql.*;
 
 /**
@@ -17,7 +18,11 @@ public class DBHelper {
     }
   }
 
-  public ResultSet fetch(String SQL) {
+  public DBHelper(ServletContext servletContext) {
+
+  }
+
+    public ResultSet fetch(String SQL) {
     try {
       //System.out.println("SQL:\n" + SQL);
       Statement stm = con.createStatement();
