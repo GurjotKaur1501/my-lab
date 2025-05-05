@@ -27,4 +27,12 @@ public class DBHelper {
       return null;
     }
   }
+
+  public ResultSet fetch(String selectForTeacherAt, String substituteId, String date) {
+      return null;
+  }
+
+  public ResultSet fetch(String selectForTeacher, String substituteId) {
+      return null;
+  }
 }

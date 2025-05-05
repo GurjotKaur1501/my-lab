@@ -11,7 +11,10 @@ public class Assignment {
     this.school = school;
   }
 
-  public Substitute teacher() {
+    public Assignment(String name, String day, String schoolName) {
+    }
+
+    public Substitute teacher() {
     return teacher;
   }
 
